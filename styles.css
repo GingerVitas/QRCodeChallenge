@@ -13,60 +13,60 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 /* QR Code Component */
 .qr-component {
   background-color: hsl(0, 0%, 100%);
-  border-radius: 20px;
-  padding: 16px;
-  max-width: 320px;
+  border-radius: 1.25rem;
+  padding: 1rem;
+  max-width: 20rem;
   width: 100%;
   text-align: center;
-  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1.5625rem 1.5625rem rgba(0, 0, 0, 0.05);
 }
 
 .qr-image {
   width: 100%;
-  border-radius: 10px;
-  margin-bottom: 24px;
+  border-radius: 0.625rem;
+  margin-bottom: 1.5rem;
 }
 
 .qr-title {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
   line-height: 1.2;
 }
 
 .qr-description {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 400;
   color: hsl(216, 15%, 48%);
   line-height: 1.4;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
-/* Attribution */
+/* Footer/Attribution */
 .attribution { 
-  font-size: 11px; 
+  font-size: 0.6875rem; 
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 .attribution a { 
   color: hsl(228, 45%, 44%); 
 }
 
 /* Responsive design */
-@media (max-width: 375px) {
+@media (max-width: 23.4375rem) {
   .qr-component {
-    max-width: 300px;
-    padding: 14px;
+    max-width: 18.75rem;
+    padding: 0.875rem;
   }
   
   .qr-title {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
